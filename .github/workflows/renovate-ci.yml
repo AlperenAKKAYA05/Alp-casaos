@@ -43,8 +43,8 @@ jobs:
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v9
         with:
-          author_name: Big Bear CI
-          author_email: ci@bigbeartechworld.com
+          author_name: Alperen CI
+          author_email: ci@alperenakkaya.dev
           message: "Update app version [ready]"
           commit: --no-verify
           push: origin HEAD:${{ github.head_ref }}
